@@ -15,11 +15,20 @@
        5 - 2 = 3     ===> Subtração
        5 * 2 = 10    ===> Multiplicação
        5 / 2 = 2.5   ===> Divisão Real (a divisão que usa vírgula para continuar a divisão)
-       5 % 2 = 1     ===> Divisão Inteira (a divisão que acaba quando tem que por a vírgula)
+       5 % 2 = 1     ===> Divisão Inteira ou Resto da Divisão (a divisão que acaba quando tem que por a vírgula)
        5 ** 2 = 25   ===> "Potência" elevado ao quadrado
    --> 
    <!--
-       Prescedência de Operadores
+       Ordem de Prescedência dos Operadores Aritméticos
+
+       ()       ===> Em primeiro lugar o Javascript resolverá o que estiver em "parênteses".
+
+       **       ===> Em segundo lugar o Javascript resolverá as "potências".
+
+       * / %    ===> Em terceiro lugar o Javascript resolverá as "multiplicações", "divisões" e "resto das divisões" (o Javascript resolverá o que aparecer primeiro).
+
+       + -     ===> Por último o Javascript resolverá as "adições" e "subtrações" (o Javascript resolverá o que aparecer primeiro).
+
    -->
 </body>
 
