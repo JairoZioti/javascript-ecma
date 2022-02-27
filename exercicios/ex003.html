@@ -28,10 +28,14 @@
 
 <script>
     
-    let n1 = prompt('Digite um número: ')
-    let n2 = prompt('Digite outro número: ')
+    let n1 = Number.parseInt(prompt('Digite um número: '))// String
+    let n2 = Number.parseInt(prompt('Digite outro número: ')) // String
+    
+    // (number + number) para adição
+    // (string + string) para concatenação
+    let s = n1 + n2
 
-    alert(`Olá ${name}, seja bem vindo!`)
+    alert(`A soma dos valores é ${String(s)}`)
 
 </script>
 </html>
