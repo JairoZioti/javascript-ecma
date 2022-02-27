@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores Relacionais, Lógicos e Ternário</title>
+</head>
+
+<body>
+    <!-- #### Operadores Reacionais, Logicos e Ternário #### -->
+    <!--
+        #### Opreadores Relacionais ####
+
+        >     ===>   Maior
+        <     ===>   Menor
+        >=    ===>   Maior ou Igual
+        <=    ===>   Menor ou Igual
+        ==    ===>   Igualdade
+        ===   ===>   Igualdade Restrita
+        !=    ===>   Diferente
+        !==   ===>   Desigual Restrito
+        
+        #### Exemplo ####
+
+        5 > 2   ===> TRUE
+        7 < 4   ===> FALSE
+        8 >= 8  ===> TRUE
+        9 <= 7  ===> FALSE
+        5 == 5  ===> TRUE
+        4 != 4  ===> FALSE
+
+        #### Indentidade ####
+
+        5 == 5      ===> TRUE    (número + número)
+        5 == '5'    ===> TRUE    (número + string)
+        5 === '5'   ===> FALSE   (número + string)
+    -->
+
+    <!--
+        #### Operadores Lógicos ####
+
+        !     ===> Negação                   ===> Operador Unário só pode receber um valor lógico, ou recebe um "TRUE" ou um "FALSE"
+        &&    ===> Conjução  ('e' lógico)    ===> Operador Binário de Conjução só aceita o resultado se os dois valores lógicos forem verdadeiros "TRUE, TRUE"
+        ||    ===> Disjunção ('ou' lógico)   ===> Operador binário de Disjunção já aceita o resultado se uns dos valores lógicos for verdadeiro "TRUE, FALSE"
+
+        #### Exemplos ####
+
+        true && false   ===> FALSE
+        true && true    ===> TRUE
+
+        false || false   ===> FALSE
+        false || true    ===> TRUE
+        ture  || false   ===> TRUE
+        true  || true    ===> TRUE
+
+        #### Operadores Ternários ####
+
+        ? :   ===> Operadaor Ternário é composto por "Interrogação" e "Dois Pontos" na mesma expressão
+
+
+        teste ? true : false
+
+        #### Exemplo ####
+
+        média >= 7.0 ? "Aprovado" : "Reprovado"
+
+        
+
+
+        ***** Dentro de uma expressão a ordem de precedência é essa: *****
+
+        () ** / ..... Primeiro lugar resolvemos os Operadores Aritméticos, respeitando sua ordem de precedência
+        > < >=  ..... Segundo lugar resolvemos os Operadores Relacionais, já esses não tem ordem de precedência
+        ! && || ..... terceiro lugar resolvemos os Operadores Lógicos, respeitando sua ordem de precedência
+
+
+    -->
+</body>
+
+<script>
+
+</script>
+
+</html>
