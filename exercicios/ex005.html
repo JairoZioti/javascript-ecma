@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Operadores Aritméticos</title>
 </head>
+
 <body>
-    <!-- Operadores Aritméticos -->
-   <!--
-       Operadores Binários
+    <!-- #### Operadores Aritméticos #### -->
+    <!--
+       #### Operadores Binários ####
 
        5 + 2 = 7     ===> Adição
        5 - 2 = 3     ===> Subtração
@@ -17,9 +19,15 @@
        5 / 2 = 2.5   ===> Divisão Real (a divisão que usa vírgula para continuar a divisão)
        5 % 2 = 1     ===> Divisão Inteira ou Resto da Divisão (a divisão que acaba quando tem que por a vírgula)
        5 ** 2 = 25   ===> "Potência" elevado ao quadrado
-   --> 
-   <!--
-       Ordem de Prescedência dos Operadores Aritméticos
+   -->
+    <!--
+       #### Ordem de Prescedência dos Operadores Aritméticos ####
+
+       ()      ===> 1º
+       **      ===> 2º
+       * / %   ===> 3º
+       + -     ===> 4º
+
 
        ()       ===> Em primeiro lugar o Javascript resolverá o que estiver em "parênteses".
 
@@ -34,5 +42,42 @@
 
 <script>
 
+    // #### Atribuições Simples ####
+    let a = 5 + 3          // ===> 8
+    let b = a % 5          // ===> 3
+    let c = 5 * b ** 2     // ===> 45
+    let d = 10 - a / 2     // ===> 6
+    let e = 6 * 2 / d      // ===> 2
+    let f = b % e + 4 / e  // ===> 3
+
+    // #### Auto-atribuições ####
+    let n1 = 3    // ===> 3
+    n1 = n1 + 4   // ===> 7
+    n1 = n1 - 5   // ===> 2
+    n1 = n1 * 4   // ===> 8
+    n1 = n1 / 2   // ===> 4
+    n1 = n1 ** 2  // ===> 16
+    n1 = n1 % 5   // ===> 1
+
+    // #### Simplificação ####
+    let n2 = 3   // ===> 3
+    n2 += 4      // ===> 7
+    n2 -= 5      // ===> 2
+    n2 *= 4      // ===> 8
+    n2 /= 2      // ===> 4
+    n2 **= 2     // ===> 16
+    n2 %= 5      // ===> 1
+
+    // #### Pós Incremento ####
+    let x = 5   // ===> 5     (no Pós Incremeto a atribuição vem depois)
+    x++         // ===> 6     (++ é igual a +1)
+    x--         // ===> 5     (-- é igual a -1)
+
+    // #### Pré Incremento ####
+    let y = 6   // ===> 6     (no Pré Incremeto a atribuição vem antes)
+    ++y         // ===> 7     (++ é igual a +1)
+    --y         // ===> 6     (-- é igual a -1)
+
 </script>
+
 </html>
