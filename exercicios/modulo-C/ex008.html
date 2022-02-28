@@ -11,9 +11,36 @@
     
     <P>Aqui vai o resultado</P>
 
-    <p>Aprendendo a usar o <strong>DOM</strong> em Javascript</p>
+    <p>Aprendendo a usar o <strong><q>DOM</q></strong> em Javascript</p>
 
     <div>Clique em mim</div><br>
+
+
+    <!--
+        ##### Seleções via DOM #####
+
+        por "Marca"
+            getElementsByTagName()[]
+            getElementsByTagNameNS()[]
+
+
+        por "ID"
+            getElementById()
+
+
+        por "Nome"
+            getElementsByName()[]
+            
+
+        por "Classe"
+            getElementsByClassName()[]
+
+
+        por "Seletor"
+            querySelector()
+            querySelectorAll()
+
+    -->
 </body>
 
 <style>
@@ -25,7 +52,15 @@
 </style>
 
 <script>
-    let p1 = document.getElementsByTagName('p')
-    
+    let p1 = document.getElementsByTagName('p')[1]
+    p1.style.backgroundColor = 'lightgreen'
+    p1.style.color = 'blue'
+    p1.style.padding = '5px'
+    p1.style.fontWeight = 'bolder'
+
+    window.document.body.style.background = 'black'
+
+    window.document.write('Está escrito assim: ' + p1.innerText + '<br>')
+    window.document.write('Está escrito assim: ' + p1.innerHTML + '<br>')
 </script>
 </html>
