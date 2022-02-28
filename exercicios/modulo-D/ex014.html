@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imigração</title>
+</head>
+
+<body>
+    <h1>Sistema de Imigração do Brasil</h1>
+
+    <input placeholder="                   Digite o nome de seu País!" type="text" id="país" style="width: 300px;">
+
+    <input id="btn" type="button" value="Enviar">
+
+    <p>Vivendo em <strong id="sp1">.....</strong>, você é <strong
+            id="sp2">.....</strong>!</p>
+</body>
+
+<script>
+
+    document.querySelector('#btn').addEventListener('click', () => {
+        let país = 'Brasil'
+        let input = document.querySelector('#país').value
+
+        document.querySelector('#sp1').innerHTML = input
+
+        if (input == país) {
+            document.querySelector('#sp2').innerHTML = 'Brasileiro'
+        } else {
+            document.querySelector('#sp2').innerHTML = 'Estrangeiro'
+        }
+    })
+
+
+</script>
+
+</html>
