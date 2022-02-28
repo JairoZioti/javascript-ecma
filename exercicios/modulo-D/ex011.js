@@ -1,1 +1,13 @@
-console.log('O console funcionou corretamente');
+/* 
+  ##### Condições em Javascript #####
+
+            Condição simples
+*/
+
+let vel = 60
+console.log(`A velocidade do seu carro é ${vel}Km/h`);
+
+if (vel > 60) {
+    console.log('Você ultrapassou a velocidade permitida. MULTADO!');
+}
+console.log('Dirija sempre usando o cinto de segurança!');
