@@ -44,6 +44,6 @@ console.log(`Passo ${c}`)
 ##################################################
 
 
-Todos os comandos executaram as mesmas funções, escrever no console 6 vezes.
+Todos os comandos executaram as mesmas funções de escrever no console 6 vezes.
 
 */
