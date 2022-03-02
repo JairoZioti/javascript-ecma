@@ -54,3 +54,16 @@ function verificar(){
         res.appendChild(img)
     }
 }
+
+/* ##### OBSERVAÇÃO ##### */
+/*
+
+##### Criar TAG IMG via Javascript #####
+
+let nomeVariável = document.createElement('img') # criar variável #
+
+nomeVariável.setAttribute('id', 'foto') # atribuir um id e definir nome para id #
+
+nomeVariável.setAttribute('src', './caminho-da-imagem') # atribuir 'src' e definir caminho para o arquivo 
+
+*/
