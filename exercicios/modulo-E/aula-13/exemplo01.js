@@ -1,5 +1,7 @@
 /* Repetições em Javascript */
 
+// ##### REPETIÇÕES DO WHILE ##### \\
+
 let c = 1
 do {
     console.log(`Passo ${c}`)
@@ -9,10 +11,10 @@ do {
 /*
 ##### Testa primeiro, executa depois
 
-let c = 1                      |
-while (c <= 6) {               | ===> esse é o método mais usado pelos programadores.
-    console.log(`Passo ${c}`)  |
-    c++                        |
+let c = 1
+while (c <= 6) {
+    console.log(`Passo ${c}`)
+    c++
 }
 
 
