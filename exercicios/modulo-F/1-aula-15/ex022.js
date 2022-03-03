@@ -7,7 +7,7 @@ Vamos criar uma variável chamada "vaga" e atribuir a ela três conteúdos entre
 ===> let vaga = [carro01, carro02, carro03] <=== 
 
 Essa variável que declaramos é do tipo ARRAY ou VECTOR
-Um ARRAY, VECTOR ou VARÁVEL COMPOSTA é uma variável que tem vários elementos, cada elemento é composto por seu valor e uma chave de indentificação.
+Um ARRAY, VECTOR ou VARÁVEL COMPOSTA é uma variável que tem vários elementos, cada elemento é composto por seu valor e uma chave de indentificação
 Para a indentificação de cada elemento usamos "indentificador de índice",  uma chave que vai indentificar cada uma delas.
 
 vaga[0] ===> recebeu carro01
